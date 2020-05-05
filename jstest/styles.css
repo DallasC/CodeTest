@@ -1,0 +1,83 @@
+
+
+body {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   color: black;
+   font-family: arial;
+}
+
+header {
+   display: flex;
+   padding-top: 15px;
+}
+
+h1 {
+   padding: 15px 25px 15px 25px;
+   font-size: 30pt;
+   margin: 20px auto 15px auto;
+}
+
+h1, #info {
+   width: fit-content;
+   border: solid white 5px;
+   border-radius: 0.3em;
+}
+
+#info {
+   height: fit-content;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+#paw {
+   height: 35px;
+   padding-left: 5px;
+}
+
+h2 {
+   margin-bottom: 0px;
+   font-size: 15pt;
+}
+
+p {
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+
+button {
+   background-color: white;
+   border-radius: 0.4em;
+   font-size: 14pt;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 40px 10px 40px;
+   cursor: pointer;
+}
+
+#park {
+   width: auto;
+   height: 520px;
+   border: solid #c9a254 5px;
+   border-radius: 0.4em;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.dog {
+   width: auto;
+   height: 150px;
+   margin: 10px;
+   border-radius: 0.3em;
+   cursor: pointer;
+}
+
+#error {
+   margin: 50px auto 50px auto;
+}
+
+footer {
+   margin-top: 15px;
+}
